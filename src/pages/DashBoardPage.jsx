@@ -1,9 +1,11 @@
 import React from "react";
-import DashBoard from "../components/dashboard/Dashboard";
+import Biography from "../shared/biography/Biography";
+import SocialMedia from "../shared/socialMedia/SocialMedia";
 
-const DashBoardPage = () =>(
+const DashBoardPage = () => (
     <div>
-    <DashBoard />
+        <Biography />
+        <SocialMedia />
     </div>
 )
 

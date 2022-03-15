@@ -1,9 +1,18 @@
 import React from "react";
+import ArticleCard from "../../shared/articleCard/ArticleCard";
+import Button from "../../shared/button/Button";
 
-const Article = () => (
-    <div>
-    <h1>This is my Article</h1>
-    </div>
-)
+const Article = () => {
+    return (
+        <div>
+            <div>
 
+            </div>
+            <Button
+                previous={{ url: "/project", text: "Projects" }}
+                next={{ url: "/resume", text: "Resume" }}
+            />
+        </div>
+    )
+}
 export default Article

@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "../../shared/projectCard/ProjectCard";
+import Button from '../../shared/button/Button'
 
 const Project = () => {
     const featuredProjects = [
@@ -50,20 +51,26 @@ const Project = () => {
     return (
         <div>
             <div>
-              <h3>FEATURED</h3>
-              {
-                  featuredProjects.map((project, index) => (
-                      <ProjectCard {...project} key={index} id={index} />
-                  ))
-              }
+                <h3>FEATURED</h3>
+                {
+                    featuredProjects.map((project, index) => (
+                        <ProjectCard {...project} key={index} id={index} />
+                    ))
+                }
             </div>
             <div>
-            <h3>OTHERS</h3>
-            {
-                projects.map((project, index) => (
-                    <ProjectCard {...project} key={index} id={index} />
-                ))
-            }
+                <h3>OTHERS</h3>
+                {
+                    projects.map((project, index) => (
+                        <ProjectCard {...project} key={index} id={index} />
+                    ))
+                }
+            </div>
+            <div>
+                <Button
+                    previous={{ url: '/', text: 'Home' }}
+                    next={{ url: '/article', text: 'Article' }}
+                />
             </div>
         </div>
     )

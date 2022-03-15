@@ -1,6 +1,7 @@
 import React from "react";
 import ResumeCard from "../../shared/resumeCard/ResumeCard";
 import { Link } from 'react-router-dom'
+import Button from "../../shared/button/Button";
 
 const Resume = () => {
     const experiences = [
@@ -42,14 +43,14 @@ const Resume = () => {
                             href="https://www.linkedin.com/in/fidelis-chiadikaobi-89592b20b/"
                         >
                             <small>
-                                <i className=""></i> <span>Linked In</span>
+                                <i className="fab fa-linkedin"></i> <span>Linked In</span>
                             </small>
                         </a>
                         <a
                             href=""
                         >
                             <small>
-                                <i className=""></i> <span>Download </span>
+                                <i className="fas fa-download"></i> <span>Download </span>
                             </small>
                         </a>
                     </div>
@@ -95,6 +96,10 @@ const Resume = () => {
                     </section>
                 </div>
             </div>
+            <Button
+                previous={{ url: '/article', text: 'Article' }}
+                next={{ url: '/', text: 'Home' }}
+            />
         </div>
     )
 }

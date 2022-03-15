@@ -3,7 +3,7 @@ import Article from "../components/article/Article";
 
 const ArticlePage = () => (
     <div>
-    <Article />
+        <Article />
     </div>
 )
 
