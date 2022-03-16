@@ -1,0 +1,28 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .article .article_posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.6rem;
+    row-gap: 0.6rem;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  
+  .article .article_posts:hover .box_container {
+    opacity: 0.4;
+  }
+  
+  @media (max-width: 993px) {
+    .article {
+      margin: 30px 0px;
+    }
+  
+    .article .article_posts {
+      grid-template-columns: 1fr;
+    }
+  }

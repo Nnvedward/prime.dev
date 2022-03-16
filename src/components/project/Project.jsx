@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "../../shared/projectCard/ProjectCard";
 import Button from '../../shared/button/Button'
+import './Project.css'
 
 const Project = () => {
     const featuredProjects = [
@@ -28,7 +29,7 @@ const Project = () => {
             github: "",
             live: "",
             stack: "MongoDB + Express + React + Node JS",
-            isPrivate: false
+            isPrivate: true
         },
         {
             title: "Task Manager Api",
@@ -49,17 +50,17 @@ const Project = () => {
     ]
 
     return (
-        <div>
-            <div>
-                <h3>FEATURED</h3>
+        <div className="project">
+            <div className="portfolio_showcase portfolio_showcase_full">
+                <h3 className="title">FEATURED</h3>
                 {
                     featuredProjects.map((project, index) => (
                         <ProjectCard {...project} key={index} id={index} />
                     ))
                 }
             </div>
-            <div>
-                <h3>OTHERS</h3>
+            <div className="portfolio_showcase">
+                <h3 className="title">OTHERS</h3>
                 {
                     projects.map((project, index) => (
                         <ProjectCard {...project} key={index} id={index} />

@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom'
+import './Header.css'
 
 const Header = () => {
     const [closed, setClosed] = useState(true)
 
     return (
-        <div>
+        <div id="header" >
             <div className="header_wrapper">
                 <div className="logo_container">
                     <a href="/">
@@ -26,7 +27,7 @@ const Header = () => {
             {
                 !closed ? (
                     <nav>
-                        <div>
+                        <div className="mobile_menu_container">
                             <ul>
                                 <li>
                                     <Link to="/" onClick={() => setClosed(true)}>

@@ -1,4 +1,5 @@
 import React from "react";
+import './ProjectCard.css'
 
 const ProjectCard = ({
     id,
@@ -13,41 +14,37 @@ const ProjectCard = ({
 }) => (
     <div className={`box_container ${id % 2 !== 0 && !fullWidth ? "box_container_pad" : ""
         } ${fullWidth && "box_container_full"}`}>
-        <div>
-            <div>
+        <div className="box">
+            <div className="project_details">
                 <h3>{title}</h3>
                 <small>{stack}</small>
                 <p>{description}</p>
             </div>
-            <div>
-                <small>
-                    <a href={live}>
+            <div className="project_links">
+                <small className="hover-effect">
+                    <a href={live} target="_blank" rel="noopener noreferrer">
                         {
                             isPackage ? (
                                 <div>
-                                    <i></i> {" "} pkg Repo
+                                    <i className="fas fa-cube"></i>{" "} Pkg Repo
                                 </div>
                             ) : (
                                 <div>
-                                    <i></i> {" "} live
+                                    <i className="fas fa-eye"></i>{" "} live
                                 </div>
                             )
                         }
                     </a>
                 </small>
-                <small>
-                    <a href={github}>
-                        {
-                            isPrivate ? (
-                                " "
-                            ) : (
-                                <div>
-                                    <i></i> {" "} Code
-                                </div>
-                            )
-                        }
-                    </a>
-                </small>
+                {isPrivate ? (
+                    ""
+                ) : (
+                    <small className="hover-effect">
+                        <a href={github} target="_blank" rel="noopener noreferrer">
+                            <i className="fas fa-code-branch"></i>{" "} Code{" "}
+                        </a>
+                    </small>
+                )}
             </div>
         </div>
     </div>

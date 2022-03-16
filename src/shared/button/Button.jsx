@@ -1,17 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './Button.css'
 
 const Button = ({ previous, next }) => (
-    <div>
+    <div className="go_button_container">
         <div>
             <Link to={previous.url}>
                 <button>
-                    {previous.text}
+                <span className="material-icons"></span>{previous.text}
                 </button>
             </Link>
             <Link to={next.url}>
                 <button>
-                    {next.text}
+                    {next.text}<span className="material-icons"></span>
                 </button>
             </Link>
         </div>

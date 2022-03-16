@@ -3,7 +3,7 @@ import Error from "../components/error/Error";
 
 const ErrorPage = () => (
     <div>
-    <Error />
+        <Error />
     </div>
 )
 

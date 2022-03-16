@@ -6,12 +6,10 @@ import DashBoardPage from './pages/DashBoardPage'
 import ErrorPage from './pages/ErrorPage'
 import ProjectPage from './pages/ProjectPage'
 import ResumePage from './pages/ResumePage'
-import Header from './shared/header/Header'
 
 const App = () => (
   <BrowserRouter>
     <div>
-    <Header />
       <Switch>
         <Route path="/" component={DashBoardPage} exact={true} />
         <Route path="/article" component={ArticlePage} />

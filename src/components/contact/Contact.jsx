@@ -1,14 +1,14 @@
 import React from "react";
 import Form from "../../shared/form/Form";
 import Button from "../../shared/button/Button";
+import './Contact.css'
 
 const Contact = () => (
     <div>
-        <h1>contact page</h1>
         <Form />
         <Button
-        previous={{url: "/project", text: 'Project'}}
-        next={{url: "/resume", text: 'Resume'}}
+            previous={{ url: "/project", text: 'Project' }}
+            next={{ url: "/resume", text: 'Resume' }}
         />
     </div>
 )

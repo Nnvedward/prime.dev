@@ -1,4 +1,5 @@
 import React from "react";
+import '../../components/resume/Resume.css'
 
 const ResumeCard = ({
     company,
@@ -8,23 +9,22 @@ const ResumeCard = ({
     description,
     achievements
 }) => (
-    <div>
-        <div>
-            <section className="" >
-                <p>
-                    {company} - <i>{position}</i>
-                </p>
-                <p>
+    <div className="exp_container">
+        <section className="experience" >
+            <p className="title">
+                {company} - <i>{position}</i>
+                <span>
+                    <br />
                     {started} - {ended === null ? 'present' : ended}
-                </p>
-                <article>
-                    <p>{description}</p>
-                    {achievements.map((achievement, index) => (
-                        <p key={index}><span>■</span>{achievement}</p>
-                    ))}
-                </article>
-            </section>
-        </div>
+                </span>
+            </p>
+            <article className="description">
+                <p>{description}</p>
+                {achievements.map((achievement, index) => (
+                    <p key={index}><span>■</span>{achievement}</p>
+                ))}
+            </article>
+        </section>
     </div>
 )
 

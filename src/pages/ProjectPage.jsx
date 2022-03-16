@@ -1,11 +1,12 @@
 import React from "react";
 import Project from "../components/project/Project";
-import SocialMedia from "../shared/socialMedia/SocialMedia";
+import Layout from "../layout/Layout";
 
 const ProjectPage = () => (
     <div>
-        <Project />
-        <SocialMedia />
+        <Layout active="project" title="Project">
+            <Project />
+        </Layout>
     </div>
 )
 

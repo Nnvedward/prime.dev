@@ -2,6 +2,7 @@ import React from "react";
 import ResumeCard from "../../shared/resumeCard/ResumeCard";
 import { Link } from 'react-router-dom'
 import Button from "../../shared/button/Button";
+import './Resume.css'
 
 const Resume = () => {
     const experiences = [
@@ -34,11 +35,11 @@ const Resume = () => {
     ]
 
     return (
-        <div>
-            <div>
-                <div>
+        <div className="resume">
+            <div className="resume_container">
+                <div className="top_row">
                     <h1>Fidelis Ekwunife</h1>
-                    <div>
+                    <div className="buttons">
                         <a
                             href="https://www.linkedin.com/in/fidelis-chiadikaobi-89592b20b/"
                         >
@@ -56,24 +57,25 @@ const Resume = () => {
                     </div>
                 </div>
                 <p>Software Developer</p>
-                <div>
+                <div className="summary">
                     <p>
                         I bring ideas to Software, i create scalable application with good
                         users interaction and experience
                     </p>
                 </div>
-                <div>
+                <div className="divider">
                     <p>stacks</p>
                     <span></span>
                 </div>
-                <div>
+                <div className="skills">
                     <p>
                         Javascript [ES6+], MongoDB, Express, React JS, Node js
                         Typescript, Conext, Redux, Firebase, HTML/CSS/SASS
                     </p>
                 </div>
-                <div>
+                <div className="divider">
                     <p>Experience</p>
+                    <span></span>
                 </div>
                 <div>
                     {
@@ -81,14 +83,14 @@ const Resume = () => {
                             <ResumeCard {...experience} key={index} id={index} />))
                     }
                 </div>
-                <div>
+                <div className="divider">
                     <p>Projects</p>
                     <span></span>
                 </div>
-                <div className="">
-                    <section className="">
-                        <article className="">
-                            <p className="">
+                <div className="exp_container">
+                    <section className="experience">
+                        <article className="description">
+                            <p className="nospan">
                                 Links to my works can be found on {" "}
                                 <Link to="/project">localhost:3000/project</Link>
                             </p>

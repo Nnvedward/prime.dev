@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Success from "../success/Success";
+import './Form.css'
 
 const Form = () => {
     const [status, setStatus] = useState("");

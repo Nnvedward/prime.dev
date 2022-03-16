@@ -1,11 +1,12 @@
 import React from "react";
 import Resume from "../components/resume/Resume";
-import SocialMedia from "../shared/socialMedia/SocialMedia";
+import Layout from "../layout/Layout";
 
 const ResumePage = () => (
     <div>
-        <Resume />
-        <SocialMedia />
+        <Layout active="resume" title="Resume">
+            <Resume />
+        </Layout>
     </div>
 )
 
