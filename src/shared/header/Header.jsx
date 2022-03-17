@@ -13,7 +13,6 @@ const Header = () => {
                         <img src="" alt="Xo logo" />
                     </a>
                 </div>
-
                 <div className="menu_btn_wrapper">
                     <button
                         className={closed ? "menu_btn" : "menu_btn menu_btn_open"}
@@ -49,6 +48,11 @@ const Header = () => {
                                         Resume
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link to="/contact" onClick={() => setClosed(true)}>
+                                        Contact Me
+                                    </Link>
+                                </li>
                             </ul>
                             <div className="social_box">
                                 <h3>You Can Find Me On</h3>
@@ -62,7 +66,7 @@ const Header = () => {
                                     <a href="https://www.linkedin.com/in/fidelis-chiadikaobi-89592b20b/">
                                         <i className="fab fa-linkedin"></i>
                                     </a>
-                                    <a href="Chiadikaobixo@gmail.com">
+                                    <a href="mailto:Chiadikaobixo@gmail.com">
                                         <i className="fas fa-at"></i>
                                     </a>
                                 </div>

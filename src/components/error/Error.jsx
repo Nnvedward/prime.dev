@@ -3,15 +3,14 @@ import { Link } from "react-router-dom";
 import './Error.css'
 
 const Error = () => (
-    <div id="error404">
+    <div id="error">
         <div className="error_container">
-            <h1>404</h1>
-            <span></span>
-            <p>oops! this page cant be found</p>
+            <h3>oops! this page can't be found!</h3>
             <div className="go_button_container">
-                Go to <span></span>
                 <Link to="/">
-                    DashBoard
+                    <button>
+                        Go to... DashBoard
+                    </button>
                 </Link>
             </div>
         </div>

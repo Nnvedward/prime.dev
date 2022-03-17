@@ -1,7 +1,6 @@
 .resume_container {
     display: flex;
     flex-direction: column;
-    /* background-color: #16161A; */
     background-color: #1b1b1d;
     padding: 5%;
 }
@@ -79,7 +78,6 @@
 
 .resume_container .exp_container .experience .title {
     margin: 0;
-    /* font-size: 15px; */
     font-size: var(--semi-font);
     line-height: 2;
 }

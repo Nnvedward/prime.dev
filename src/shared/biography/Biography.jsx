@@ -3,32 +3,35 @@ import { Link } from 'react-router-dom'
 import './Biography-mobile.css'
 import './Biography.css'
 
-const Biography = ({ active }) => (
+const Biography = ({ active }) => {
+  return (
     <div className="base_container">
-        <div className="hero">
-            <div className="intro_box">
-                <h1>Fidelis Ekwunife</h1>
-                <h3>Software Enginner</h3>
-                <div className="avi">
-                    <img src alt="avatar" />
-                </div>
-            </div>
-            <div className="description">
-                <p>
-                    <span>
-                        I build open <span className="highlight">front-end</span> and <span className="highlight">backend</span> libraries
-                    </span>
-                </p>
-            </div>
-            <div className="go_button_container">
-                <Link to="/project" className="explore">
-                <button className="explore">
-                        Explore
-                    </button>
-                </Link>
-            </div>
+      <div className="hero">
+        <div className="intro_box">
+          <h1>Fidelis Ekwunife</h1>
+          <div className="avi">
+            <img src alt="avatar" />
+          </div>
         </div>
-        <nav>
+        <div className="intro_box">
+          <h3>Software Developer</h3>
+        </div>
+        <div className="description">
+          <p>
+            <span>
+              I build open <span className="highlight">front-end</span> and <span className="highlight">backend</span> libraries
+            </span>
+          </p>
+        </div>
+        <div className="go_button_container">
+          <Link to="/project" className="explore">
+            <button className="explore">
+              Explore
+            </button>
+          </Link>
+        </div>
+      </div>
+      <nav>
         <ul>
           <li className={active === "project" ? "active_menu" : ""}>
             <small>
@@ -66,7 +69,7 @@ const Biography = ({ active }) => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-github"></i> Github
+            <i className="fab fa-github"></i>Github 
           </a>
 
           <a
@@ -74,11 +77,17 @@ const Biography = ({ active }) => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-twitter"></i> Twitter{" "}
+          <i className="fab fa-twitter"></i>Twitter{" "}
+          </a>
+          
+          <a
+            href="https://www.linkedin.com/in/fidelis-chiadikaobi-89592b20b/">
+            <i className="fab fa-linkedin"></i>Linkedin {" "}
+            <span>{"  "}</span>
           </a>
 
           <a
-            href="chiadikaobixo@gmail.com"
+            href="mailto:chiadikaobixo@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -87,6 +96,6 @@ const Biography = ({ active }) => (
         </div>
       </div>
     </div>
-)
-
+  )
+}
 export default Biography

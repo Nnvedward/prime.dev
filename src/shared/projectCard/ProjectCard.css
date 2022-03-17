@@ -2,7 +2,6 @@
 
 .box_container {
     width: 100%;
-    /* background-color: #16161a; */
     background-color: #1b1b1d;
     margin: 0;
     position: relative;
@@ -12,9 +11,7 @@
   .box {
     display: flex;
     flex-direction: column;
-    /* padding: 10%; */
     padding: 2.5rem;
-    /* height: 80%; */
     flex-grow: 1;
     justify-content: space-between;
     cursor: default;

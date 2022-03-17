@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Success.css'
 
 const Success = () => {
@@ -13,6 +14,9 @@ const Success = () => {
           I will get back to you shortly, thanks for reaching out. {" "}
         </p>
         <div className="go_button_container" style={{ display: "flex" }}>
+        <Link to="/">
+            <button>DashBoard</button>
+          </Link>
         </div>
       </div>
     </div>

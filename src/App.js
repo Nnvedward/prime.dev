@@ -6,6 +6,7 @@ import DashBoardPage from './pages/DashBoardPage'
 import ErrorPage from './pages/ErrorPage'
 import ProjectPage from './pages/ProjectPage'
 import ResumePage from './pages/ResumePage'
+import './App.css'
 
 const App = () => (
   <BrowserRouter>

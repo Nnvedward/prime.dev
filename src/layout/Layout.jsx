@@ -32,7 +32,6 @@ const Layout = ({ children, title, active, home, article }) => {
                     <div className="fixed">
                         <Biography active={active} />
                     </div>
-
                     <div className="main">
                         <div className="pages_container">{children}</div>
                     </div>
