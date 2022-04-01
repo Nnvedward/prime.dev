@@ -8,18 +8,15 @@ const Biography = ({ active }) => {
     <div className="base_container">
       <div className="hero">
         <div className="intro_box">
-          <h1>Fidelis Ekwunife</h1>
+          <h1>Hello, I'm Edward.</h1>
           <div className="avi">
-            <img src alt="avatar" />
+            <img src="https://i.ibb.co/YDcWv9R/Edward-avatar.png" alt="avatar" />
           </div>
-        </div>
-        <div className="intro_box">
-          <h3>Software Developer</h3>
         </div>
         <div className="description">
           <p>
             <span>
-              I build open <span className="highlight">front-end</span> and <span className="highlight">backend</span> libraries
+              I'm a <span className="highlight">full stack developer.</span> I build <span className="highlight">web applications</span> and <span className="highlight">scalable APIs</span> using modern <span className="highlight">web technologies.</span>
             </span>
           </p>
         </div>
@@ -62,10 +59,10 @@ const Biography = ({ active }) => {
         </ul>
       </nav>
       <div className="footer">
-        <img src alt="" />
+        <img src="https://i.ibb.co/YDcWv9R/Edward-avatar.png" alt="avatar" />
         <div className="social">
           <a
-            href="https://github.com/chiadikaobixo"
+            href="https://github.com/Nnvedward"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -73,7 +70,7 @@ const Biography = ({ active }) => {
           </a>
 
           <a
-            href="https://twitter.com/chiadikaobixo"
+            href="https://twitter.com/nnvemeka"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -81,13 +78,13 @@ const Biography = ({ active }) => {
           </a>
           
           <a
-            href="https://www.linkedin.com/in/fidelis-chiadikaobi-89592b20b/">
+            href="https://www.linkedin.com/in/edward-ugwu-6027831b5/">
             <i className="fab fa-linkedin"></i>Linkedin {" "}
             <span>{"  "}</span>
           </a>
 
           <a
-            href="mailto:chiadikaobixo@gmail.com"
+            href="mailto:nnvedward@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >

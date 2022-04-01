@@ -24,7 +24,7 @@ const Layout = ({ children, title, active, home, article }) => {
             >
                 <div className="mobile_container">
                     <Header />
-                    <div id="mobile">{home ? <Biography /> : children}</div>
+                    <div className="mb" id="mobile">{home ? <Biography /> : children}</div>
                     <SocialMedia />
                 </div>
 

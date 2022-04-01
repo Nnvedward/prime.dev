@@ -9,9 +9,9 @@ const Header = () => {
         <div id="header" >
             <div className="header_wrapper">
                 <div className="logo_container">
-                    <a href="/">
-                        <img src="" alt="Xo logo" />
-                    </a>
+                <Link to="/" style={{textDecoration: "none", fontSize: 30, fontWeight: "bold", color: "white"}}>
+                    Prime.
+                </Link>
                 </div>
                 <div className="menu_btn_wrapper">
                     <button
@@ -57,16 +57,16 @@ const Header = () => {
                             <div className="social_box">
                                 <h3>You Can Find Me On</h3>
                                 <div className="social_icons">
-                                    <a href="https://github.com/chiadikaobixo">
+                                    <a href="https://github.com/Nnvedward">
                                         <i className="fab fa-github"></i>
                                     </a>
-                                    <a href="https://twitter.com/chiadikaobixo">
+                                    <a href="https://twitter.com/nnvemeka">
                                         <i className="fab fa-twitter"></i>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/fidelis-chiadikaobi-89592b20b/">
+                                    <a href="https://www.linkedin.com/in/edward-ugwu-6027831b5/">
                                         <i className="fab fa-linkedin"></i>
                                     </a>
-                                    <a href="mailto:Chiadikaobixo@gmail.com">
+                                    <a href="mailto:nnvedward@gmail.com">
                                         <i className="fas fa-at"></i>
                                     </a>
                                 </div>

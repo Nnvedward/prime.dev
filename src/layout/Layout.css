@@ -81,6 +81,11 @@
     h1 {
       font-size: 34px !important;
     }
+
+    .mb {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
   }
   
   @media (max-width: 993px) {
@@ -104,8 +109,12 @@
       justify-content: space-between;
       padding: 5%;
       box-sizing: border-box;
-  
       height: 100%;
+    }
+
+    .mb {
+      margin-top: 50px;
+      margin-bottom: 50px;
     }
   }
   
