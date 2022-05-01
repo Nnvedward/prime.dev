@@ -16,7 +16,7 @@ const Biography = ({ active }) => {
         <div className="description">
           <p>
             <span>
-              I'm a <span className="highlight">full stack developer.</span> I build <span className="highlight">web applications</span> and <span className="highlight">scalable APIs</span> using modern <span className="highlight">web technologies.</span>
+              I'm a <span className="highlight">Software developer.</span> I build <span className="highlight">web applications</span> and <span className="highlight">scalable APIs</span> using modern <span className="highlight">web technologies.</span>
             </span>
           </p>
         </div>

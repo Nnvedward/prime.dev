@@ -4,7 +4,7 @@ const SocialMedia = () => {
   return (
     <div className="social_buttons">
       <a
-        href="https://github.com/Nnvedward"
+        href="https://github.com/Nnvemeka"
         target="_blank"
         rel="noopener noreferrer"
       >

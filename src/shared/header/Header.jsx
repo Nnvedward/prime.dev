@@ -10,7 +10,7 @@ const Header = () => {
             <div className="header_wrapper">
                 <div className="logo_container">
                 <Link to="/" style={{textDecoration: "none", fontSize: 30, fontWeight: "bold", color: "white"}}>
-                    Prime.
+                    Nnvemeka.
                 </Link>
                 </div>
                 <div className="menu_btn_wrapper">
@@ -57,7 +57,7 @@ const Header = () => {
                             <div className="social_box">
                                 <h3>You Can Find Me On</h3>
                                 <div className="social_icons">
-                                    <a href="https://github.com/Nnvedward">
+                                    <a href="https://github.com/Nnvemeka">
                                         <i className="fab fa-github"></i>
                                     </a>
                                     <a href="https://twitter.com/nnvemeka">
