@@ -11,56 +11,65 @@ const Project = () => {
             github: "",
             live: "",
             stack: "MongoDB + Express + React + Node JS",
-            isPackage: true
-        },
-        {
-            title: "Task Manager Api",
-            description: "Rest Api for managing your task",
-            github: "",
-            live: "",
-            stack: "MongoDB + Express + React + Node JS",
             isPrivate: false
         }
     ]
     const projects = [
         {
-            title: "Task Manager Api",
-            description: "Rest Api for managing your task",
-            github: "",
-            live: "",
-            stack: "MongoDB + Express + React + Node JS",
-            isPrivate: true
-        },
-        {
-            title: "Task Manager Api",
-            description: "Rest Api for managing your task",
-            github: "",
-            live: "",
-            stack: "MongoDB + Express + React + Node JS",
+            title: "Butiq",
+            description: "An E-commerce store for Fashion & Style.",
+            github: "https://github.com/Nnvemeka/butiq",
+            live: "https://butiq.netlify.com",
+            stack: "MongoDB + Express + ReactJS + NodeJS",
             isPrivate: false
         },
         {
             title: "Task Manager Api",
-            description: "Rest Api for managing your task",
+            description: "Rest API for managing your task.",
             github: "",
-            live: "",
-            stack: "MongoDB + Express + React + Node JS",
+            live: "https://github.com/Nnvemeka/task-manager-api",
+            stack: "MongoDB + Express + NodeJS",
+            isPackage: true,
+            isPrivate: true
+        },
+        {
+            title: "Expensify",
+            description: "Keep track of your expenses!",
+            github: "https://github.com/Nnvemeka/expensify-app",
+            live: "https://nnv-expensify-app.herokuapp.com",
+            stack: "ReactJS + Firebase + Redux",
+            isPrivate: false
+        },
+        {
+            title: "Chat App",
+            description: "Create a chat room and enjoy your conversation.",
+            github: "https://github.com/Nnvemeka/chat-app",
+            live: "https://nnv-chat.herokuapp.com",
+            stack: "NodeJS + SocketIO + Express",
+            isPrivate: false
+        },
+        {
+            title: "Indecision",
+            description: "What do you want to do? Let this application help you decide!",
+            github: "https://github.com/Nnvemeka/Indecision-app",
+            live: "https://nnv-indecision.netlify.app",
+            stack: "ReactJS",
+            isPrivate: false
+        },
+        {
+            title: "Weather App",
+            description: "Weather forcast application.",
+            github: "https://github.com/Nnvemeka/weather-app",
+            live: "https://nnv-weather-application.herokuapp.com",
+            stack: "NodeJs + Express",
             isPrivate: false
         }
     ]
 
     return (
         <div className="project">
-            <div className="portfolio_showcase portfolio_showcase_full">
-                <h3 className="title">FEATURED</h3>
-                {
-                    featuredProjects.map((project, index) => (
-                        <ProjectCard {...project} key={index} id={index} />
-                    ))
-                }
-            </div>
             <div className="portfolio_showcase">
-                <h3 className="title">OTHERS</h3>
+                <h3 className="title">PROJECTS</h3>
                 {
                     projects.map((project, index) => (
                         <ProjectCard {...project} key={index} id={index} />
