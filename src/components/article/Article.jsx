@@ -2,7 +2,17 @@ import React from "react";
 import ArticleCard from "../../shared/articleCard/ArticleCard";
 import Button from "../../shared/button/Button";
 
-const Article = ({ articles }) => {
+const Article = () => {
+  const articles = [{
+    id: 1,
+    tags: 'Me',
+    url: 'me.com',
+    first_publication_date: 'April 30, 2022',
+    data: {
+      title: 'Coming soon!',
+      content: '...'
+    }
+  }]
     return (
         <div className="article">
       <div className="article_posts">

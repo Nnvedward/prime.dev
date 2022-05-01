@@ -1,13 +1,13 @@
-const minutes = (text) => {
-    const words = text.split(" ").length
-    const count = Number(words) / 200
+// const minutes = (text) => {
+//     const words = text.split(" ").length
+//     const count = Number(words) / 200
 
-    const [mins, secs] = count.toFixed(2).toString().split(".")
+//     const [mins, secs] = count.toFixed(2).toString().split(".")
 
-    return {
-        mins: parseInt(mins),
-        secs: parseInt(secs)
-    }
-}
+//     return {
+//         mins: parseInt(mins),
+//         secs: parseInt(secs)
+//     }
+// }
 
-export default minutes
+// export default minutes

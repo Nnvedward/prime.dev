@@ -1,11 +1,9 @@
 import React from "react"
 import { Link } from 'react-router-dom'
-import minutes from "../../utils/worldCount"
 import './ArticleCard.css'
 
 const ArticleCard = ({ id, tags, url, first_publication_date, data }) => {
     const { title, content } = data;
-    const { mins } = minutes(content.text);
 
     return (
         <article
@@ -20,9 +18,7 @@ const ArticleCard = ({ id, tags, url, first_publication_date, data }) => {
             >
                 <div className="article_meta">
                     <small className="article_tags">
-                        {tags.map((tag, index) =>
-                            index === tags.length - 1 ? tag : `${tag}, `
-                        )}
+                        <h1>Coming Soon...</h1>
                     </small>
                     <small className="article_date"> {first_publication_date} </small>
                 </div>
@@ -31,7 +27,6 @@ const ArticleCard = ({ id, tags, url, first_publication_date, data }) => {
                     <h3>{title.text}</h3>
                     <small className="article_length">
                         <i className="far fa-clock"></i>{" "}
-                        {mins === 0 ? `1 min` : `${mins} mins`} read
                     </small>
                 </div>
             </Link>
