@@ -7,29 +7,33 @@ import './Resume.css'
 const Resume = () => {
     const experiences = [
         {
-            company: "Franchise",
-            position: "Software Engineer",
-            started: "september 2021",
+            company: "BlueTag Technologies",
+            position: "Software Developer",
+            started: "September 2020",
             ended: null,
             description:
-                "I am currently building scalabel API with the team at franchise",
+                " Developing software applications (coding, programming) in compliance with acceptable industry ethics, protocols and standards.",
             achievements: [
-                "built an ecommerce store for Franchise Clothing",
-                "Managing and maintaining of the company's code"
+                "Managing and maintaining of the company's code.",
+                "Adhering to the company policies and Standard Operating Procedure manuals.",
+                "Documenting and testing new software applications.",
+                "Collaborating with teammates and management for best software results.",
+                "Approaching problems analytically and creating solutions.",
+                "Active engagement in the achievement of Goals and Objectives in line with the Company’s vision relevant to responsibilities granted to you, which may be amended from time to time."
             ],
         },
         {
-            company: "SmartWay Internships",
-            position: "Backend Developer [Intern]",
-            started: "april 2021",
-            ended: "August 2021",
+            company: "Freelance",
+            position: "Backend Developer",
+            started: "March 2020",
+            ended: "September 2020",
             description:
-                "I contributed in developing projects for six months while learning new skills",
+                "I built and contributed in developing projects for six months while learning new skills",
             achievements: [
-                "Worked with my team members to build Node API",
-                "Managed app state with react hooks",
-                "Worked with my teammates to implement app features with MERN",
-                "Built complex layouts and components with React & SASS"
+                "Built RESTFUL application programming interface.",
+                "Enhanced Web sites and applications by developing robust databases.",
+                "Analyzed software requirements and worked with team members to develop solutions.",
+                "Debugging and testing codes."
             ],
         },
     ]
@@ -38,10 +42,10 @@ const Resume = () => {
         <div className="resume">
             <div className="resume_container">
                 <div className="top_row">
-                    <h1>Fidelis Ekwunife</h1>
+                    <h1>Edward Ugwu</h1>
                     <div className="buttons">
                         <a
-                            href="https://www.linkedin.com/in/fidelis-chiadikaobi-89592b20b/"
+                            href="https://www.linkedin.com/in/edward-ugwu-6027831b5/"
                         >
                             <small>
                                 <i className="fab fa-linkedin"></i> <span>Linked In</span>
@@ -59,22 +63,22 @@ const Resume = () => {
                 <p>Software Developer</p>
                 <div className="summary">
                     <p>
-                        I bring ideas to Software, i create scalable application with good
-                        users interaction and experience
+                        I bring ideas to Software, i build high-quality and scalable applications with good
+                        users interaction and experience.
                     </p>
                 </div>
                 <div className="divider">
-                    <p>stacks</p>
+                    <p>Stacks</p>
                     <span></span>
                 </div>
                 <div className="skills">
                     <p>
-                        Javascript [ES6+], MongoDB, Express, React JS, Node js
-                        Typescript, Conext, Redux, Firebase, HTML/CSS/SASS
+                        Javascript [ES6+], MongoDB, Express, React JS, Node JS,
+                        Redux, Firebase, HTML/CSS/SASS, MySQL
                     </p>
                 </div>
                 <div className="divider">
-                    <p>Experience</p>
+                    <p>Experiences</p>
                     <span></span>
                 </div>
                 <div>
@@ -92,7 +96,7 @@ const Resume = () => {
                         <article className="description">
                             <p className="nospan">
                                 Links to my works can be found on {" "}
-                                <Link to="/project">localhost:3000/project</Link>
+                                <Link to="/project"> -Projects</Link>
                             </p>
                         </article>
                     </section>
