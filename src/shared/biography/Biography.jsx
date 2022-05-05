@@ -8,9 +8,9 @@ const Biography = ({ active }) => {
     <div className="base_container">
       <div className="hero">
         <div className="intro_box">
-          <h1>Hello, I'm Edward.</h1>
+          <h1>Hello, I'm Edward Ugwu.</h1>
           <div className="avi">
-            <img src="https://i.ibb.co/YDcWv9R/Edward-avatar.png" alt="avatar" />
+            <img src="https://i.ibb.co/bL9XHjg/IMG-01117.jpg" alt="avatar" />
           </div>
         </div>
         <div className="description">
@@ -59,7 +59,7 @@ const Biography = ({ active }) => {
         </ul>
       </nav>
       <div className="footer">
-        <img src="https://i.ibb.co/YDcWv9R/Edward-avatar.png" alt="avatar" />
+        <img src="https://i.ibb.co/bL9XHjg/IMG-01117.jpg" alt="avatar" />
         <div className="social">
           <a
             href="https://github.com/Nnvedward"
