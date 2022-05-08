@@ -3,39 +3,28 @@ import ResumeCard from "../../shared/resumeCard/ResumeCard";
 import { Link } from 'react-router-dom'
 import Button from "../../shared/button/Button";
 import './Resume.css'
+import pdf from '../../static/Ugwu-Edward-Nnaemeka.pdf'
 
 const Resume = () => {
     const experiences = [
         {
             company: "BlueTag Technologies",
             position: "Software Developer",
-            started: "September 2020",
+            started: "Sept 2021",
             ended: null,
             description:
                 " Developing software applications (coding, programming) in compliance with acceptable industry ethics, protocols and standards.",
             achievements: [
-                "Managing and maintaining of the company's code.",
-                "Adhering to the company policies and Standard Operating Procedure manuals.",
-                "Documenting and testing new software applications.",
-                "Collaborating with teammates and management for best software results.",
-                "Approaching problems analytically and creating solutions.",
-                "Active engagement in the achievement of Goals and Objectives in line with the Company’s vision relevant to responsibilities granted to you, which may be amended from time to time."
+                "Created highly responsive and scalable web applications for use in different industries and client environments.",
+                "Enhanced applications and improved performance using testing and validations against requirements and performance standards.",
+                "Developed, designed, tested, and debugged applications from foundation to full production.",
+                "Coordinated concepts, libraries, and style guides for development team.",
+                "Helped manage fast-paced software delivery model from within complex development ecosystem.",
+                "Tracked changes and seamlessly merged codes from different features and updates to manage versions.",
+                "Met application goals with expert use of optimal development tools and frameworks.",
+                "Enhanced Web sites and applications by developing robust databases."
             ],
-        },
-        {
-            company: "Freelance",
-            position: "Backend Developer",
-            started: "March 2020",
-            ended: "September 2020",
-            description:
-                "I built and contributed in developing projects for six months while learning new skills",
-            achievements: [
-                "Built RESTFUL application programming interface.",
-                "Enhanced Web sites and applications by developing robust databases.",
-                "Analyzed software requirements and worked with team members to develop solutions.",
-                "Debugging and testing codes."
-            ],
-        },
+        }
     ]
 
     return (
@@ -52,7 +41,7 @@ const Resume = () => {
                             </small>
                         </a>
                         <a
-                            href=""
+                            href={pdf}
                         >
                             <small>
                                 <i className="fas fa-download"></i> <span>Download </span>
@@ -63,8 +52,8 @@ const Resume = () => {
                 <p>Software Developer</p>
                 <div className="summary">
                     <p>
-                        I bring ideas to Software, i build high-quality and scalable applications with good
-                        users interaction and experience.
+                    I have a grounded knowledge and experience for building a functional, scalable and efficient web application
+                    that satisfies the need of the end-user with the core web development stacks.
                     </p>
                 </div>
                 <div className="divider">
@@ -74,7 +63,7 @@ const Resume = () => {
                 <div className="skills">
                     <p>
                         Javascript [ES6+], MongoDB, Express, React JS, Node JS,
-                        Redux, Firebase, HTML/CSS/SASS, MySQL
+                         Firebase, HTML/CSS/SASS, MySQL, C#
                     </p>
                 </div>
                 <div className="divider">
@@ -96,7 +85,7 @@ const Resume = () => {
                         <article className="description">
                             <p className="nospan">
                                 Links to my works can be found on {" "}
-                                <Link to="/project"> -Projects</Link>
+                                <Link to="/project"> Projects</Link>
                             </p>
                         </article>
                     </section>
