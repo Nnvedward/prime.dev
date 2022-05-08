@@ -10,7 +10,7 @@ const Resume = () => {
         {
             company: "BlueTag Technologies",
             position: "Software Developer",
-            started: "Sept 2021",
+            started: "Sept 2020",
             ended: null,
             description:
                 " Developing software applications (coding, programming) in compliance with acceptable industry ethics, protocols and standards.",
