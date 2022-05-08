@@ -62,7 +62,7 @@ const Biography = ({ active }) => {
         <img src="https://i.ibb.co/bL9XHjg/IMG-01117.jpg" alt="avatar" />
         <div className="social">
           <a
-            href="https://github.com/Nnvedward"
+            href="https://github.com/Nnvemeka"
             target="_blank"
             rel="noopener noreferrer"
           >
