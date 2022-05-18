@@ -34,7 +34,7 @@ const Resume = () => {
                     <h1>Edward Ugwu</h1>
                     <div className="buttons">
                         <a
-                            href="https://www.linkedin.com/in/edward-ugwu-6027831b5/"
+                            href="https://www.linkedin.com/in/nnvemeka/"
                         >
                             <small>
                                 <i className="fab fa-linkedin"></i> <span>Linked In</span>

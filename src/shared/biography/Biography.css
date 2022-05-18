@@ -143,7 +143,7 @@ nav ul li:hover a .menu_bullet {
     position: relative;
     top: 2px;
     height: 45px;
-    width: 47px;
+    width: 40px;
     border-radius: 50%;
 }
 
@@ -208,7 +208,7 @@ nav ul li:hover a .menu_bullet {
     }
 
     .intro_box .avi img {
-        width: 113px;
+        width: 100px;
         height: 113px;
         border-radius: 50%;
     }

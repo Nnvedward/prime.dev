@@ -78,7 +78,7 @@ const Biography = ({ active }) => {
           </a>
           
           <a
-            href="https://www.linkedin.com/in/edward-ugwu-6027831b5/">
+            href="https://www.linkedin.com/in/nnvemeka/">
             <i className="fab fa-linkedin"></i>Linkedin {" "}
             <span>{"  "}</span>
           </a>

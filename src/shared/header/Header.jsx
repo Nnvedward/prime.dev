@@ -63,7 +63,7 @@ const Header = () => {
                                     <a href="https://twitter.com/nnvemeka">
                                         <i className="fab fa-twitter"></i>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/edward-ugwu-6027831b5/">
+                                    <a href="https://www.linkedin.com/in/nnvemeka/">
                                         <i className="fab fa-linkedin"></i>
                                     </a>
                                     <a href="mailto:nnvedward@gmail.com">
