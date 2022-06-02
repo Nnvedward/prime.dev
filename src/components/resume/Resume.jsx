@@ -3,26 +3,33 @@ import ResumeCard from "../../shared/resumeCard/ResumeCard";
 import { Link } from 'react-router-dom'
 import Button from "../../shared/button/Button";
 import './Resume.css'
-import pdf from '../../static/Ugwu-Edward-Nnaemeka.pdf'
+import pdf from '../../static/Edward-ugwu.pdf'
 
 const Resume = () => {
     const experiences = [
         {
             company: "BlueTag Technologies",
             position: "Software Developer",
-            started: "Sept 2020",
+            started: "Feb 2021",
             ended: null,
-            description:
-                " Developing software applications (coding, programming) in compliance with acceptable industry ethics, protocols and standards.",
+            description: null,
             achievements: [
-                "Created highly responsive and scalable web applications for use in different industries and client environments.",
-                "Enhanced applications and improved performance using testing and validations against requirements and performance standards.",
-                "Developed, designed, tested, and debugged applications from foundation to full production.",
-                "Coordinated concepts, libraries, and style guides for development team.",
-                "Helped manage fast-paced software delivery model from within complex development ecosystem.",
-                "Tracked changes and seamlessly merged codes from different features and updates to manage versions.",
-                "Met application goals with expert use of optimal development tools and frameworks.",
-                "Enhanced Web sites and applications by developing robust databases."
+                "Designed an application using a REST API architecture developing a robust database.",
+                "Managed fast-paced software delivery model from within a complex development ecosystem.",
+                "Enhanced applications and improved performance using testing and validation against requirements.",
+                "Coordinated concepts, libraries and style guides for the development team."
+            ],
+        },
+        {
+            company: "BlueTag Technologies",
+            position: "Software Developer Intern",
+            started: "Sept 2020",
+            ended: "Jan 2021",
+            description: null,
+            achievements: [
+                "Refactored the backend codebase to use the MVC (model, views and controllers) file structure.",
+                "Built React components and fetched the backend REST API endpoints using Axios.",
+                "Used chrome developer tool for debugging."
             ],
         }
     ]
@@ -37,7 +44,7 @@ const Resume = () => {
                             href="https://www.linkedin.com/in/nnvemeka/"
                         >
                             <small>
-                                <i className="fab fa-linkedin"></i> <span>Linked In</span>
+                                <i className="fab fa-linkedin"></i> <span>LinkedIn</span>
                             </small>
                         </a>
                         <a
@@ -57,13 +64,13 @@ const Resume = () => {
                     </p>
                 </div>
                 <div className="divider">
-                    <p>Stacks</p>
+                    <p>Tools & Technologies</p>
                     <span></span>
                 </div>
                 <div className="skills">
                     <p>
-                        Javascript [ES6+], MongoDB, Express, React JS, Node JS,
-                         Firebase, HTML/CSS/SASS, MySQL, C#
+                        Node.JS, Express, React, JavaScript, MongoDB, MySQL, Git, Typescript, 
+                         Firebase, REST API, GraphQL, Prisma, Docker, Bootstrap, HTML/CSS/SASS
                     </p>
                 </div>
                 <div className="divider">
