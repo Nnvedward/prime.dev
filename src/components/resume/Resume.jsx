@@ -3,7 +3,7 @@ import ResumeCard from "../../shared/resumeCard/ResumeCard";
 import { Link } from 'react-router-dom'
 import Button from "../../shared/button/Button";
 import './Resume.css'
-import pdf from '../../static/Edward-ugwu.pdf'
+import pdf from '../../static/Edward-Ugwu1.pdf'
 
 const Resume = () => {
     const experiences = [
@@ -69,8 +69,8 @@ const Resume = () => {
                 </div>
                 <div className="skills">
                     <p>
-                        Node.JS, Express, React, JavaScript, MongoDB, MySQL, Git, Typescript, 
-                         Firebase, REST API, GraphQL, Prisma, Docker, Bootstrap, HTML/CSS/SASS
+                        Node.JS, Express, React, Angular, JavaScript, MongoDB, MySQL, Git, Typescript, 
+                         Firebase, REST API, Bootstrap, HTML/CSS/SASS
                     </p>
                 </div>
                 <div className="divider">

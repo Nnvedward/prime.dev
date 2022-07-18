@@ -37,7 +37,7 @@ const Form = () => {
             <form
                 name="contact"
                 method="post"
-                action="https://formspree.io/f/mrgjleyn"
+                action="https://formspree.io/f/xnqwenkd"
                 onSubmit={(e) => submitForm(e)}
             >
                 <input type="hidden" name="form-name" value="contact" />
