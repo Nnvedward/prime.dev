@@ -33,6 +33,14 @@ const Project = () => {
             isPrivate: true
         },
         {
+            title: "Krypto World",
+            description: "A cryptocurrency application.",
+            github: "https://github.com/Nnvemeka/krptoworld",
+            live: "https://kryptoworld.vercel.app",
+            stack: "React + Redux-toolkit + Coinranking API",
+            isPrivate: false
+        },
+        {
             title: "Expensify",
             description: "Keep track of your expenses!",
             github: "https://github.com/Nnvemeka/expensify-app",
