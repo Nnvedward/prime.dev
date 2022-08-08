@@ -7,7 +7,7 @@ const Article = () => {
     id: 1,
     tags: 'Nnvemeka',
     url: 'nnvemeka.dev',
-    first_publication_date: 'April 30, 2022',
+    first_publication_date: '',
     data: {
       title: 'Coming soon!',
       content: '...'
