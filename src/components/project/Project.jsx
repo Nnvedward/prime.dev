@@ -12,16 +12,6 @@ const Project = () => {
             live: "",
             stack: "MongoDB + Express + React + Node JS",
             isPrivate: false
-        }
-    ]
-    const projects = [
-        {
-            title: "Butiq",
-            description: "An E-commerce store for Fashion & Style.",
-            github: "https://github.com/Nnvemeka/butiq",
-            live: "https://butiq.netlify.com",
-            stack: "MongoDB + Express + ReactJS + NodeJS",
-            isPrivate: false
         },
         {
             title: "Task Manager Api",
@@ -31,6 +21,32 @@ const Project = () => {
             stack: "MongoDB + Express + NodeJS",
             isPackage: true,
             isPrivate: true
+        },
+        {
+            title: "Chat App",
+            description: "Create a chat room and enjoy your conversation.",
+            github: "https://github.com/Nnvemeka/chat-app",
+            live: "https://nnv-chat.herokuapp.com",
+            stack: "NodeJS + SocketIO + Express",
+            isPrivate: false
+        },
+        {
+            title: "Weather App",
+            description: "Weather forcast application.",
+            github: "https://github.com/Nnvemeka/weather-app",
+            live: "https://nnv-weather-application.herokuapp.com",
+            stack: "NodeJs + Express",
+            isPrivate: false
+        }
+    ]
+    const projects = [
+        {
+            title: "Butiq",
+            description: "An E-commerce store for Fashion & Style.",
+            github: "https://github.com/Nnvemeka/butiq",
+            live: "https://butiq.netlify.com",
+            stack: "React + MongoDB + Express + NodeJS",
+            isPrivate: false
         },
         {
             title: "Krypto World",
@@ -45,15 +61,7 @@ const Project = () => {
             description: "Keep track of your expenses!",
             github: "https://github.com/Nnvemeka/expensify-app",
             live: "https://nnv-expensify-app.herokuapp.com",
-            stack: "ReactJS + Firebase + Redux",
-            isPrivate: false
-        },
-        {
-            title: "Chat App",
-            description: "Create a chat room and enjoy your conversation.",
-            github: "https://github.com/Nnvemeka/chat-app",
-            live: "https://nnv-chat.herokuapp.com",
-            stack: "NodeJS + SocketIO + Express",
+            stack: "React + Firebase + Redux",
             isPrivate: false
         },
         {
@@ -61,17 +69,10 @@ const Project = () => {
             description: "What do you want to do? Let this application help you decide!",
             github: "https://github.com/Nnvemeka/Indecision-app",
             live: "https://nnv-indecision.netlify.app",
-            stack: "ReactJS",
+            stack: "React",
             isPrivate: false
         },
-        {
-            title: "Weather App",
-            description: "Weather forcast application.",
-            github: "https://github.com/Nnvemeka/weather-app",
-            live: "https://nnv-weather-application.herokuapp.com",
-            stack: "NodeJs + Express",
-            isPrivate: false
-        }
+        
     ]
 
     return (
