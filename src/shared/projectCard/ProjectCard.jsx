@@ -18,7 +18,7 @@ const ProjectCard = ({
             <div className="project_details">
                 <h3>{title}</h3>
                 <small>{stack}</small>
-                <p>{description}</p>
+                <p style={{marginBottom: '4em'}}>{description}</p>
             </div>
             <div className="project_links">
                 <small className="hover-effect">

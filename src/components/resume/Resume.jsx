@@ -3,33 +3,42 @@ import ResumeCard from "../../shared/resumeCard/ResumeCard";
 import { Link } from 'react-router-dom'
 import Button from "../../shared/button/Button";
 import './Resume.css'
-import pdf from '../../static/Edward-Ugwu1.pdf'
+import pdf from '../../static/Edward.pdf'
 
 const Resume = () => {
     const experiences = [
         {
-            company: "BlueTag Technologies",
-            position: "Software Developer",
-            started: "Feb 2021",
+            company: "Prexcribe",
+            position: "Frontend Engineer",
+            started: "Jul 2022",
             ended: null,
             description: null,
             achievements: [
-                "Designed an application using a REST API architecture developing a robust database.",
-                "Managed fast-paced software delivery model from within a complex development ecosystem.",
-                "Enhanced applications and improved performance using testing and validation against requirements.",
-                "Coordinated concepts, libraries and style guides for the development team."
+                "Designed and updated layouts to meet usability and performance requirements.",
+                "Collaborated with the UI/UX team to improve the application, increasing it's usage by 25%.",
+                "Responsible for consuming REST API endpoints and business logic for the web application."
+            ],
+        },
+        {
+            company: "Kellispay (Contract)",
+            position: "Frontend Engineer",
+            started: "Jan 2022",
+            ended: "Mar 2022",
+            description: null,
+            achievements: [
+                "Built the website landing page using standard HTML and CSS practices.",
             ],
         },
         {
             company: "BlueTag Technologies",
-            position: "Software Developer Intern",
+            position: "Frontend Engineer",
             started: "Sept 2020",
-            ended: "Jan 2021",
+            ended: null,
             description: null,
             achievements: [
-                "Refactored the backend codebase to use the MVC (model, views and controllers) file structure.",
-                "Built React components and fetched the backend REST API endpoints using Axios.",
-                "Used chrome developer tool for debugging."
+                "Managed full cycle design tasks and consulted customers to gather requirements and discuss design choices.",
+                "Worked on management solutions eg: school portals, E-library, Etc.",
+                "Coordinated concepts, libraries and style guides for the development team."
             ],
         }
     ]
@@ -59,8 +68,8 @@ const Resume = () => {
                 <p>Software Developer</p>
                 <div className="summary">
                     <p>
-                    I have a grounded knowledge and experience for building a functional, scalable and efficient web application
-                    that satisfies the need of the end-user with the core web development stacks.
+                    I build functional, scalable and efficient web application
+                    that satisfies the need of the end-user with modern web development technologies.
                     </p>
                 </div>
                 <div className="divider">
@@ -69,8 +78,8 @@ const Resume = () => {
                 </div>
                 <div className="skills">
                     <p>
-                        Node.JS, Express, React, Angular, JavaScript, MongoDB, MySQL, Git, Typescript, 
-                         Firebase, REST API, Bootstrap, HTML/CSS/SASS
+                         React, Angular, JavaScript, MongoDB, MySQL, Git, Typescript, 
+                         Node.JS, Express, Firebase, REST API, Bootstrap, Chakra UI, HTML/CSS/SASS
                     </p>
                 </div>
                 <div className="divider">
