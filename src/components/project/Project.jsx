@@ -14,13 +14,12 @@ const Project = () => {
             isPrivate: false
         },
         {
-            title: "Task Manager Api",
-            description: "Rest API for managing your task.",
-            github: "",
-            live: "https://github.com/Nnvemeka/task-manager-api",
-            stack: "MongoDB + Express + NodeJS",
-            isPackage: true,
-            isPrivate: true
+            title: "Indecision",
+            description: "What do you want to do? Let this application help you decide!",
+            github: "https://github.com/Nnvemeka/Indecision-app",
+            live: "https://nnv-indecision.netlify.app",
+            stack: null,
+            isPrivate: false
         },
         {
             title: "Chat App",
@@ -41,11 +40,35 @@ const Project = () => {
     ]
     const projects = [
         {
+            title: "Prexcribe",
+            description: "Prexcibe is a healthcare Saas platform which aims at strengthening care coordination and informed clinical decision-making in patient management.",
+            github: "",
+            live: "https://app.prexcribe.io",
+            stack: null,
+            isPrivate: true
+        },
+        {
+            title: "Kellispay",
+            description: "Kellispay is a one-stop-shop payment ecosystem aimed at providing everyday financial access and solutions to it's customers.",
+            github: null,
+            live: "https://kellispay.com",
+            stack: null,
+            isPrivate: true
+        },
+        {
+            title: "Gezawa Commodity Exchange",
+            description: "GCMX Trading platform.",
+            github: null,
+            live: "http://gcmx.bluetag.tech/auth/market",
+            stack: null,
+            isPrivate: true
+        },
+        {
             title: "Butiq",
             description: "An E-commerce store for Fashion & Style.",
             github: "https://github.com/Nnvemeka/butiq",
             live: "https://butiq.netlify.com",
-            stack: "React + MongoDB + Express + NodeJS",
+            stack: null,
             isPrivate: false
         },
         {
@@ -53,7 +76,7 @@ const Project = () => {
             description: "A cryptocurrency application.",
             github: "https://github.com/Nnvemeka/krptoworld",
             live: "https://kryptoworld.vercel.app",
-            stack: "React + Redux-toolkit + Coinranking API",
+            stack: null,
             isPrivate: false
         },
         {
@@ -61,15 +84,7 @@ const Project = () => {
             description: "Keep track of your expenses!",
             github: "https://github.com/Nnvemeka/expensify-app",
             live: "https://nnv-expensify-app.herokuapp.com",
-            stack: "React + Firebase + Redux",
-            isPrivate: false
-        },
-        {
-            title: "Indecision",
-            description: "What do you want to do? Let this application help you decide!",
-            github: "https://github.com/Nnvemeka/Indecision-app",
-            live: "https://nnv-indecision.netlify.app",
-            stack: "React",
+            stack: null,
             isPrivate: false
         },
         
