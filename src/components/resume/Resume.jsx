@@ -21,7 +21,7 @@ const Resume = () => {
 			],
 		},
 		{
-			company: "BlueTag Technologies",
+			company: "BlueTag Technologies Limited",
 			position: "Frontend Engineer",
 			started: "Jan 2020",
 			ended: "Nov 2022",
