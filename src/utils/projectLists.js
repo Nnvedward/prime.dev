@@ -19,7 +19,7 @@ export const projects = [
     id: 2,
     title: "Nogabi Solutions",
     description:
-      "A versatile software development agency delivering innovative web, mobile, and desktop applications, as well as AI solutions, tailored to meet clients' unique needs and drive technological excellence.",
+      "Nogabi Solutions is a software development agency that offers robust, secure, and scalable solutions, from collaborative ideation and product strategy to engineering, testing, and continuous scaling.",
     github: "https://github.com/Nnvemeka",
     live: "https://nogabi-solutions.com",
     stack: "React, TypeScript, Framer Motion",

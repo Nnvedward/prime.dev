@@ -140,6 +140,6 @@
   }
 
   .box .project_details p {
-    height: 4.5rem;
+    height: auto;
   }
 }
