@@ -3,7 +3,7 @@ import ResumeCard from "../../shared/resumeCard/ResumeCard";
 import { Link } from "react-router-dom";
 import Button from "../../shared/button/Button";
 import "./Resume.css";
-import pdf from "../../static/Edward_Ugwu.pdf";
+import pdf from "../../static/EdUgwu.pdf";
 
 const Resume = () => {
   const experiences = [
@@ -18,7 +18,7 @@ const Resume = () => {
         "Leveraged Next.js to create a highly responsive and user-friendly interface for our logistics service, ensuring an exceptional user experience.",
         "Implemented robust security measures to safeguard customer data and financial transactions, ensuring the safety and trust of our users.",
         "Led efforts to enhance the platform's scalability, performance, and reliability to meet the demands of a growing user base.",
-        "Fostered a culture of innovation, encouraging team members to explore and implement new technologies and features that enhance the service.",
+        "Fostered a culture of innovation, encouraging team members to explore and implement new technologies and features that enhance the service.",
       ],
     },
     {
@@ -109,7 +109,7 @@ const Resume = () => {
             </a>
           </div>
         </div>
-        <p>Software Engineer</p>
+        <p>Frontend Engineer</p>
         <div className="summary">
           <p>
             An experienced front-end engineer with demonstrated expertise in
@@ -129,9 +129,10 @@ const Resume = () => {
         </div>
         <div className="skills">
           <p>
-            React, Next, Angular, JavaScript, Typescript, HTML5/CSS3/SASS/SCSS,
-            Bootstrap, Chakra UI, MongoDB, MySQL, Git, Node.JS, Express,
-            Firebase, JSON, C#,
+            React, Next, Angular, JavaScript, Typescript, CSS, Sass/SCSS, Styled
+            components, Tailwind CSS, Bootstrap, Material UI, Chakra UI, Fetch
+            API, Axios, GraphQL, React query, Framer motion, GSAP(Greensock),
+            Git.
           </p>
         </div>
         <div className="divider">
